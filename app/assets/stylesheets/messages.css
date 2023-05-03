@@ -1,0 +1,45 @@
+.wrapper{
+  display:flex;
+}
+
+.side_bar{
+  background-color:#253141;
+  width:300px;
+  height:100vh;
+  
+}
+
+.main_chat{
+  background-color:#ffffff;
+  width:calc(100vw - 300px);
+  height:100vh;
+  
+}
+
+.main_header{
+  height:100px;
+  padding: 0 40px;
+}
+
+.message{
+  height: calc( 100vh - 100px - 90px);
+  background-color:#FAFAFA;
+  padding: 46px 40px 0;
+}
+
+.main_form{
+  height:90px;
+  background-color:#DDDDDD;
+  padding:20px 40px;
+}
+
+.side_header{
+  height:100px;
+  padding: 0 20px;
+}
+
+.side_rooms{
+  background-color:#2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
